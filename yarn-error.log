@@ -1,0 +1,50 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Gabriel\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add --dev nodemon ts-node
+
+PATH: 
+  C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;F:\;F:\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\ProgramData\chocolatey\bin;C:\Program Files\Azure Data Studio\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Gabriel\anaconda3;C:\Users\Gabriel\anaconda3\Library\mingw-w64\bin;C:\Users\Gabriel\anaconda3\Library\usr\bin;C:\Users\Gabriel\anaconda3\Library\bin;C:\Users\Gabriel\anaconda3\Scripts;C:\Users\Gabriel\AppData\Local\Microsoft\WindowsApps;F:\Microsoft VS Code\bin;C:\Users\Gabriel\AppData\Roaming\npm;C:\src\flutter\bin;C:\Program Files\Android\Android Studio\jre\bin;C:\Program Files\Azure Data Studio\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2021.1.3\bin;;C:\Users\Gabriel\AppData\Local\Programs\Microsoft VS Code\bin;";C:\Program Files\PostgreSQL\9.5\bin  ;C:\Program Files\PostgreSQL\9.5\lib";C:\Program Files\heroku\bin;C:\Program Files\MongoDB\Server\5.0\bin;
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  14.17.5
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\Gabriel\Desktop\prisma-api\node_modules\@prisma\engines\query_engine-windows.dll.node'
+
+npm manifest: 
+  {
+    "name": "prisma-api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "dev": "ts-node-dev --exit-child --transpile-only --ignore-watch node_modules nodemon src/server.ts",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@types/express": "^4.17.13",
+      "prisma": "^3.14.0",
+      "ts-node-dev": "^2.0.0",
+      "typescript": "^4.7.2"
+    },
+    "dependencies": {
+      "@prisma/client": "^3.14.0",
+      "express": "^4.18.1",
+      "ts-node": "^10.8.0",
+      "tsc": "^2.0.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
